@@ -40444,3 +40444,963 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:09:48 -0500
 Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Processing by DoSomethingController#main as HTML
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered do_something/main.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 124ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /do_something.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /customstyle.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /do_something.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:19 -0500
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:20 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered do_something/main.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 149ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:25 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered do_something/main.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 162ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:26 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 130ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:27 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered do_something/main.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 116ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:28 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered do_something/main.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 144ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:29 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 117ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /customstyle.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 96ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:30 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 126ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:31 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered do_something/main.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 137ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /customstyle.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:32 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 103ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:33 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 85ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:34 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 100ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:35 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 124ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /customstyle.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 156ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 15:20:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-17 15:20:37 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
