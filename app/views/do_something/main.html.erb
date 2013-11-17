@@ -16,59 +16,42 @@
 	<%= JSON.pretty_generate(@fields) %>
 	<% #@fields['response']['docs'][0]['descriptiveNonRepeating']['online_media']['media'][0]['idsId'].inspect %>
 	</pre>  -->
-	<br><br>
-	<div class="row container">
 
-		<div class="col-xs-12 col-md-6" align="center">
-
-		<%= form_for(:search, url: "/") do |f| %>
-
-		  <%= f.text_field :search_field %>
-
-		    <div class="form-actions">
-		    <%= f.submit 'Search', class: "btn btn-lg btn-info" %>
-		  </div>
-
-		<% end %>
-		</div>
-	</div>
 <br><br>
 	<div class="row container">
 		<div class="col-xs-12 col-md-6" align="center">
-			<div class="col-xs-2 col-md-2" align="center">
-				<a href="#">
-					<%= image_tag "emoji/happy.png", width: "100%" %>
-					Happy
-				</a>
+			<div class="row">
+				<h3>How does this art make you feel?</h3>
 			</div>
-			<div class="col-xs-2 col-md-2" align="center">
-				<a href="#">
-					<%= image_tag "emoji/sad.png", width: "100%" %>
-					Sad
-				</a>
-			</div>
-			<div class="col-xs-2 col-md-2" align="center">
-				<a href="#">
-					<%= image_tag "emoji/mad.png", width: "100%" %>
-					Mad
-				</a>
-			</div>
-			<div class="col-xs-2 col-md-2" align="center">
-				<a href="#">
-					<%= image_tag "emoji/gross.png", width: "100%" %>
-					Gross
-				</a>
-			</div>
+			<br>
 			<div class="col-xs-2 col-md-2" align="center">
 				<a href="#">
 					<%= image_tag "emoji/love.png", width: "100%" %>
-					Love
+				</a>
+			</div>
+			<div class="col-xs-2 col-md-2" align="center">
+				<a href="#">
+					<%= image_tag "emoji/happy.png", width: "100%" %>
 				</a>
 			</div>
 			<div class="col-xs-2 col-md-2" align="center">
 				<a href="#">
 					<%= image_tag "emoji/meh.png", width: "100%" %>
-					Meh
+				</a>
+			</div>
+			<div class="col-xs-2 col-md-2" align="center">
+				<a href="#">
+					<%= image_tag "emoji/sad.png", width: "100%" %>
+				</a>
+			</div>
+			<div class="col-xs-2 col-md-2" align="center">
+				<a href="#">
+					<%= image_tag "emoji/gross.png", width: "100%" %>
+				</a>
+			</div>
+			<div class="col-xs-2 col-md-2" align="center">
+				<a href="#">
+					<%= image_tag "emoji/mad.png", width: "100%" %>
 				</a>
 			</div>
 		</div>

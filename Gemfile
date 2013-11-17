@@ -6,6 +6,11 @@ gem 'edanrb'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'simple_form'
 
+group :production do
+  gem 'pg'
+  gem 'better_errors'      # prettifies exception handling
+  gem 'binding_of_caller'  # extension better_errors to include additional params.
+end
 
 group :development do
   gem 'sqlite3'
