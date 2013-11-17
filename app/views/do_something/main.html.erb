@@ -1,4 +1,5 @@
 <%= render 'layouts/navigation' %>
+<%= stylesheet_link_tag "font-awesome/css/font-awesome.min.css" %>
 
 <div class="container col-md-offset-3">
 
@@ -9,16 +10,18 @@
 	</div>
 
 
-	<!-- <pre>
-	<%= JSON.pretty_generate(@fields) %>
-	<% #@fields['response']['docs'][0]['descriptiveNonRepeating']['online_media']['media'][0]['idsId'].inspect %>
-	</pre>  -->
 	<div class="row">
 		<div class="col-md-6">
 			<h3 class="creator">
 				<%= @fields['response']['docs'][0]["indexedStructured"]["name"][0] rescue "No Creator" %>&nbsp;<span class="glyphicon glyphicon-play"></span>
-				<div style="float:right;">
-					<button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-open"></span></button>&nbsp;<button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-star"></span></button>
+				<div style="float:right;" class="orange">
+				<span class="fa-stack">
+				  <i class="fa fa-square fa-stack-2x"></i>
+				  <i class="fa fa-external-link fa-stack-1x fa-inverse"></i>
+				</span>&nbsp;<span class="fa-stack">
+				  <i class="fa fa-square fa-stack-2x"></i>
+				  <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
+				</span>
 				</div>
 			</h3>
 
@@ -32,57 +35,19 @@
 			</h4>
 
 			<h4 class="physicalDescription">
-				<%= @fields['response']['docs'][0]["freetext"]["physicalDescription"][0]["content"] rescue "d" %>
+				<%= @fields['response']['docs'][0]["freetext"]["physicalDescription"][0]["content"] rescue "Unknown material." %>
 			</h4>
 			</blockquote>
 			<h4 class="location">
-				<%= @fields['response']['docs'][0]["freetext"]["setName"][0]["content"] rescue "d" %>
+				<i class="fa fa-location-arrow"></i>&nbsp;<%= @fields['response']['docs'][0]["freetext"]["setName"][1]["content"] rescue "This piece is currently not on view." %>
 			</h4>
 		</div>
 	</div>
 
-<br><br>
-	<div class="container" align="center">
+	<div class="container">
 		<div class="col-md-6">
-			<div class="row">
-				<h3>How does this art make you feel?</h3>
-			</div>
-
-			<div class="row">
-				<div class="row col-md-6">
-					<div class="col-xs-4" align="center">
-						<a href="#">
-							<%= image_tag "emoji/love.png", width: "100%" %>
-						</a>
-					</div>
-					<div class="col-xs-4" align="center">
-						<a href="#">
-							<%= image_tag "emoji/happy.png", width: "100%" %>
-						</a>
-					</div>
-					<div class="col-xs-4" align="center">
-						<a href="#">
-							<%= image_tag "emoji/meh.png", width: "100%" %>
-						</a>
-					</div>
-				</div>
-				<div class="row col-md-6">
-					<div class="col-xs-4" align="center">
-						<a href="#">
-							<%= image_tag "emoji/sad.png", width: "100%" %>
-						</a>
-					</div>
-					<div class="col-xs-4" align="center">
-						<a href="#">
-							<%= image_tag "emoji/gross.png", width: "100%" %>
-						</a>
-					</div>
-					<div class="col-xs-4" align="center">
-						<a href="#">
-							<%= image_tag "emoji/mad.png", width: "100%" %>
-						</a>
-					</div>
-				</div>
+			<div class="row description-text">
+				<%= @fields['response']['docs'][0]["freetext"]["notes"][0]["content"] rescue "This piece has no description in our database."  %>
 			</div>
 		</div>
 
