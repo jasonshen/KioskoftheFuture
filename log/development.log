@@ -16688,3 +16688,146 @@ Served asset /emoji/gross.png - 304 Not Modified (0ms)
 
 Started GET "/assets/emoji/mad.png" for 127.0.0.1 at 2013-11-16 19:47:50 -0500
 Served asset /emoji/mad.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:04:33 -0500
+Processing by DoSomethingController#main as HTML
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered do_something/main.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 763ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/love.png" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /emoji/love.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/mad.png" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /emoji/mad.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/happy.png" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /emoji/happy.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/sad.png" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /emoji/sad.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/gross.png" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /emoji/gross.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/meh.png" for 127.0.0.1 at 2013-11-16 20:04:34 -0500
+Served asset /emoji/meh.png - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-16 20:04:50 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>""}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered do_something/main.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 141ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/gross.png" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /emoji/gross.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/mad.png" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /emoji/mad.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/love.png" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /emoji/love.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/happy.png" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /emoji/happy.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/meh.png" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /emoji/meh.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emoji/sad.png" for 127.0.0.1 at 2013-11-16 20:04:51 -0500
+Served asset /emoji/sad.png - 304 Not Modified (0ms)
